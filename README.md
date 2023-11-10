@@ -32,12 +32,6 @@
         </div>
 
   <div class="content">
-          <nav>
-            <a style="color: red;" href="#">WHO WE ARE</a>
-            <a style="color: rgb(71, 71, 71);" href="#">DESTINATIONS</a>
-            <a style="color: rgb(71, 71, 71);" href="#">PRICING</a>
-            <a style="color: rgb(71, 71, 71);" href="#">CONTACT</a>
-          </nav>
           <br />
           <hr />
           <br /><br />
@@ -61,10 +55,5 @@
         </div>
     </main>
     <footer></footer>
-
-  <script
-      src="https://kit.fontawesome.com/dd5a5c7164.js"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
