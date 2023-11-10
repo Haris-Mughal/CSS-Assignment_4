@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(71, 71, 71);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+}
+    
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 57px;
+    margin-bottom: 10px;
+    line-height: 50px;
+}
+
+main {
+    display: flex;
+    height: 100%;
+}
+
+.sidebar {
+    width: 15%;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.d-logo {
+    width: 15px;
+    height: 150px;
+    margin-bottom: 0;
+}
+.m-logo {
+    display: none;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sidebar > .icons> i {
+    margin-top: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+#hr {
+    display: none;
+}
+.image img {
+    height: 800px;
+    width: 700px;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+    font-size: small;
+}
+.content {
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 545;
+}
+
+.footer {
+    font-size: 12px;
+    font-weight: 500;
+}
+@media screen and (max-width: 992px) {
+    main {
+        display: block;
+    }
+    .sidebar {
+      
+        width: 100%;        
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .icons {
+        display: flex;
+        justify-content: space-between;
+        padding: 2%;
+        flex-direction: row;
+    }
+    .viking-logo {
+        width: 60%;
+    }
+    .viking-logo > .m-logo {
+        display: block;
+        width: 200px;
+    }
+    .viking-logo > .d-logo {
+        display: none;
+    }
+    .sidebar > .icons > i {
+        margin-left: 20px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    #hr {
+        display: flex;
+    }
+    .image img {
+        height: auto;
+        width: 100%;
+    }
+    .content {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .footer {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    main {
+        display: block;
+    }
+    .sidebar {
+        flex-direction: row;
+        align-items: center;
+    }
+    .viking-logo {
+        margin-left: 0;
+        margin-right: 50%;
+        padding: 2%;
+    }
+    .m-logo {
+        display:flex;
+        width: 150px;
+    }
+    .d-logo {
+        display: none;
+    }
+    .icons {
+        display: none;
+    }
+    #hr {
+        display: flex;
+    }
+    .image img {
+        height: auto;
+        width: 100%;
+    }
+    a {
+        text-decoration: none;
+        display: block;
+        font-size: small;
+    }
+    .content {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .footer {
+        font-size: 18px;
+    }
+}
+
+
